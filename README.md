@@ -14,9 +14,15 @@
 ## Usage
 
 ```
-kustomize build environments/dev
-kustomize build environments/prod
+kustomize build environments/dev | kubectl apply -f -
 ```
+
+```
+kubectl port-forward svc/web-app-1-app 9898
+```
+
+Browse to http://localhost:9898
+
 
 ## More info
 

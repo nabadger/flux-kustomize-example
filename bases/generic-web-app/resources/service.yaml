@@ -6,6 +6,6 @@ metadata:
 spec:
   ports:
   - name: http
-    port: 8000
+    port: 9898
     protocol: TCP
   type: ClusterIP
