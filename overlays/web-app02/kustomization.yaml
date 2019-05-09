@@ -1,0 +1,22 @@
+kind: Kustomization
+apiVersion: kustomize.config.k8s.io/v1beta1
+
+bases:
+- ../../bases/generic-web-app
+
+commonLabels:
+  app.kubernetes.io/name: web-app-2
+
+commonAnnotations:
+  app.kubernetes.io/owner: some-other-team
+
+namePrefix: web-app-2-
+namespace: sandbox
+
+images:
+- name: container-image
+  newName: registry.gitlab.com/some-repo/some-image-2
+  newTag: latest
+
+patches:
+- patches/patch-deploy-metrics.yaml
