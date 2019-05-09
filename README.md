@@ -17,3 +17,9 @@
 kustomize build environments/dev
 kustomize build environments/prod
 ```
+
+## More info
+
+These workloads deploy a helpful utility container:  https://github.com/stefanprodan/k8s-podinfo
+
+It assumes you have access to a pre-configured k8s cluster, with access to the `default` namespace.
