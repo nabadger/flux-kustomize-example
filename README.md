@@ -32,4 +32,4 @@ It assumes you have access to a pre-configured k8s cluster, with access to the `
 
 ## Flux
 
-The intention is that flux config for `--git-path` would point at `./environments/prod` 
+The intention is that flux config for `--git-path` would point at `./environments/prod` for a production cluster, and `./environments/dev` for a separate dev cluster.
