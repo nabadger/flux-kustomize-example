@@ -32,11 +32,15 @@ spec:
             port: http
         name: container-name
         ports:
-        - containerPort: 8000
+        - containerPort: 9898
           name: http
         readinessProbe:
           httpGet:
-            path: /readiness
+            path: /readyz
+            port: http
+        livenessProbe:
+          httpGet:
+            path: /healthz
             port: http
         resources:
           limits:

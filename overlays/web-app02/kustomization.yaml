@@ -8,15 +8,11 @@ commonLabels:
   app.kubernetes.io/name: web-app-2
 
 commonAnnotations:
-  app.kubernetes.io/owner: some-other-team
+  app.kubernetes.io/owner: some-team-2
 
 namePrefix: web-app-2-
-namespace: sandbox
 
 images:
 - name: container-image
-  newName: registry.gitlab.com/some-repo/some-image-2
+  newName: stefanprodan/podinfo
   newTag: latest
-
-patches:
-- patches/patch-deploy-metrics.yaml
