@@ -28,6 +28,8 @@ Browse to http://localhost:9898
 
 Note, this example works against the latest PR and built image here: https://github.com/weaveworks/flux/pull/1848
 
+If you are using remote bases, you ensure flux has the deploy-keys required to access all the required repos.
+
 ### Handling multiple environments
 
 Example flux deployment config showing a dev cluster running flux to deploy dev workloads.
