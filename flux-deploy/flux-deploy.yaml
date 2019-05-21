@@ -25,8 +25,8 @@ spec:
         - --git-branch=test-policy-set
         - --git-path=environments/dev
         - --listen-metrics=:3031
-        - --sync-interval=2m
-        - --git-poll-interval=2m
+        - --sync-interval=1m
+        - --git-poll-interval=1m
         - --registry-poll-interval=1m
         image: docker.io/2opremio/flux:generators-releasers-bb344048
         imagePullPolicy: IfNotPresent
