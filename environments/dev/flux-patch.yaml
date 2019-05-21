@@ -11,5 +11,5 @@ spec:
       $setElementOrder/containers:
       - name: container-name
       containers:
-      - image: nabadger/podinfo:0.0.1
+      - image: nabadger/podinfo:0.0.4-arm
         name: container-name
