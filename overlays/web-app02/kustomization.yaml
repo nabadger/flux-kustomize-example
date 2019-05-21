@@ -8,11 +8,14 @@ commonLabels:
   app.kubernetes.io/name: web-app-2
 
 commonAnnotations:
-  app.kubernetes.io/owner: some-team-2
-
+  app.kubernetes.io/owner: some-team
+ 
 namePrefix: web-app-2-
+
+patches:
+- deploy-patch.yaml
 
 images:
 - name: container-image
-  newName: stefanprodan/podinfo
-  newTag: latest
+  newName: nabadger/podinfo
+  newTag: 0.0.2
