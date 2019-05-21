@@ -3,8 +3,6 @@ kind: Kustomization
 
 commonAnnotations:
   env: dev
-  flux.weave.works/automated: "true"
-  flux.weave.works/tag.container-name: 'semver: ~0.0'
 
 bases:
 - ../../overlays/web-app01

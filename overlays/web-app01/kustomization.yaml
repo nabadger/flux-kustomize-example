@@ -9,6 +9,8 @@ commonLabels:
 
 commonAnnotations:
   app.kubernetes.io/owner: some-team
+  flux.weave.works/automated: "true"
+  flux.weave.works/tag.container-name: 'semver: ~0.0'
 
 namePrefix: web-app-1-
 
