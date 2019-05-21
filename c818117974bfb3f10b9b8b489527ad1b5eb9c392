@@ -1,0 +1,1 @@
+{"jobID":"d1c8eb51-56da-2cd3-a570-b6bb6e7e6696","spec":{"type":"policy","cause":{"Message":"","User":"Nick \u003cnickbadger1980@googlemail.com\u003e"},"spec":{"default:deployment/web-app-1-app":{"add":{"tag.container-name":"semver: ~0.0"},"remove":{}}}},"result":null}
