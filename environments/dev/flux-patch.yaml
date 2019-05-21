@@ -1,0 +1,7 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    flux.weave.works/tag.container-name: glob:0.0.*
+  name: web-app-1-app
