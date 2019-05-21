@@ -1,9 +1,0 @@
----
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: name
-  namespace: default
-  annotations:
-    flux.weave.works/automated: 'true'
-    flux.weave.works/tag.container-name: semver:^0.0.0
