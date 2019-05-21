@@ -2,9 +2,6 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  annotations:
-    flux.weave.works/automated: "true"
-    flux.weave.works/tag.container-name: semver:~0.0
   name: web-app-1-app
 spec:
   template:
