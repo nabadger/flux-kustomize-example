@@ -1,0 +1,1 @@
+{"jobID":"22c7fceb-1033-97ae-6f8f-5a1590005e44","spec":{"type":"policy","cause":{"Message":"","User":"Nick \u003cnickbadger1980@googlemail.com\u003e"},"spec":{"default:deployment/web-app-1-app":{"add":{"automated":"true"},"remove":{}}}},"result":null}
