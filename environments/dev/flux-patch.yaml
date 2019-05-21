@@ -22,5 +22,5 @@ spec:
       $setElementOrder/containers:
       - name: container-name
       containers:
-      - image: nabadger/podinfo:staging-3301f6a
+      - image: nabadger/podinfo:3301f7x-staging
         name: container-name
