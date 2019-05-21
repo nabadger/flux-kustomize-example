@@ -3,6 +3,14 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    flux.weave.works/automated: 'true'
+    flux.weave.works/automated: "true"
     flux.weave.works/tag.container-name: glob:0.0.*
   name: web-app-1-app
+spec:
+  template:
+    spec:
+      $setElementOrder/containers:
+      - name: container-name
+      containers:
+      - image: nabadger/podinfo:0.0.3-arm
+        name: container-name
