@@ -4,6 +4,7 @@ kind: Deployment
 metadata:
   annotations:
     flux.weave.works/automated: "true"
+    flux.weave.works/tag.container-name: 'glob:'
   name: web-app-1-app
 spec:
   template:
