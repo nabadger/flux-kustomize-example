@@ -15,4 +15,4 @@ namePrefix: web-app-1-
 images:
 - name: container-image
   newName: nabadger/podinfo
-  newTag: 0.0.1
+  newTag: 0.0.2
