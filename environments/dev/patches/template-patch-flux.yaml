@@ -6,10 +6,4 @@ metadata:
   namespace: default
   annotations:
     flux.weave.works/automated: 'true'
-spec:
-  template:
-    spec:
-      containers:
-      - name: my-container
-        image: image
-
+    flux.weave.works/tag.container-name: semver:^0.0.0
