@@ -11,3 +11,16 @@ spec:
       containers:
       - image: nabadger/podinfo:0.0.11
         name: container-name
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-app-2-app
+spec:
+  template:
+    spec:
+      $setElementOrder/containers:
+      - name: container-name
+      containers:
+      - image: nabadger/podinfo:staging-3301f6a
+        name: container-name
