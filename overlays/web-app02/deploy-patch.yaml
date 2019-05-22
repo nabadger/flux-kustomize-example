@@ -5,5 +5,4 @@ metadata:
   annotations:
     flux.weave.works/automated: "true"
     flux.weave.works/tag.container-name: 'glob:master*'
-    # flux.weave.works/tag.container-name: 'glob:staging-*'
   name: app
